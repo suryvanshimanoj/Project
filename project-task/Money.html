@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Money Counter</title>
+
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h1>Money Counter</h1>
+        <table>
+        
+            <tr>
+                <td><img src="./img/500rp.png" alt=""></td>
+                <td><input type="number" class="inp" id="one" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res1"> 0</td>
+            </tr>
+            <tr>
+                <td><img src="./Img/200rp.jpg" alt=""></td>
+                <td><input type="number" class="inp" id="two" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res2"> 0</td>
+            </tr>
+            <tr>
+                <td><img src="./Img/100rp.png" alt=""></td>
+                <td><input type="number" class="inp" id="three" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res3"> 0</td>
+            </tr>
+            <tr>
+                <td><img src="./img/50rp.png" alt=""></td>
+                <td><input type="number" class="inp" id="four" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res4"> 0</td>
+            </tr>
+            <tr>
+                <td><img src="./img/20rp.jpg" alt=""></td>
+                <td><input type="number" class="inp" id="five" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res5"> 0</td>
+            </tr>
+            <tr>
+                <td><img src="./img/10rp.png" alt=""></td>
+                <td><input type="number" class="inp" id="six" placeholder="0" oninput="cal()"></td>
+                <td>=</td>
+                <td id="res6"> 0</td>
+            </tr>
+            <br>
+    
+    
+         
+        </table>
+    </div>
+   
+
+
+    <div class="showres">
+           
+           <!-- this tag show total of amount -->
+        <div class="bgrc" >
+            <span id="moneytotal">Total:  </span>
+            <span id="total"> </span>
+        </div>
+
+         <!-- this tag show total of notes -->
+        <div class="bgrc">
+            <span id="totalnotes">Total Notes: </span>
+            <span id="totalNotes"> </span>
+        </div>
+        <!-- this tag show total of words -->
+        <div class="bgrc">
+            <span id="numberConvertWords">Price in words: </span>
+            <span id="words"></span>
+        </div>
+    </div>
+
+</body>
+
+
+  <script src="./Money.js"></script>
+</html>
